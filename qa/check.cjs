@@ -1,0 +1,22 @@
+const {chromium}=require('/data/pat/node_modules/playwright');
+const fs=require('fs'),path=require('path'),crypto=require('crypto');
+const site=path.resolve(__dirname,'..'),out=__dirname;
+const sha=b=>crypto.createHash('sha256').update(b).digest('hex');
+(async()=>{const browser=await chromium.launch({headless:true,args:['--no-sandbox']}); const results=[];
+for(const [kind,file] of [['source',path.join(site,'index.html')],['standalone','/data/pat/Octavitin-Website.html']]){
+ for(const width of [1440,390,320]){
+ const page=await browser.newPage({viewport:{width,height:1000},reducedMotion:'reduce',acceptDownloads:true});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('file://'+file);await page.evaluate(()=>document.fonts.ready);await page.locator('footer').scrollIntoViewIfNeeded();await page.waitForTimeout(150);await page.evaluate(()=>window.scrollTo(0,0));
+ const checks=await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,images:[...document.images].map(i=>({alt:i.alt,loaded:i.complete&&i.naturalWidth>0})),anchors:[...document.querySelectorAll('a[href^="#"]')].map(a=>({href:a.getAttribute('href'),valid:!!document.querySelector(a.getAttribute('href'))})),motion:getComputedStyle(document.documentElement).scrollBehavior,fonts:document.fonts.check('21px "Brygada 1918"')&&document.fonts.check('18px "Nunito Sans"'),initialHidden:document.getElementById('hello-art').hidden}));
+ await page.locator('#ring').focus();await page.keyboard.press('Enter');checks.revealed=await page.locator('#hello-art').isVisible();checks.leaveFocused=await page.locator('#leave').evaluate(e=>e===document.activeElement);checks.reducedAnimation=await page.locator('#hello-art').evaluate(e=>getComputedStyle(e).animationName);
+ await page.keyboard.press('Space');checks.hiddenAfterLeave=!(await page.locator('#hello-art').isVisible());checks.ringFocused=await page.locator('#ring').evaluate(e=>e===document.activeElement);await page.locator('#ring').focus();await page.keyboard.press('Space');checks.spaceReveal=await page.locator('#hello-art').isVisible();await page.locator('#leave').click();
+ const expected=fs.readFileSync(path.join(site,'../manuscript-us/01-three-rules.md'),'utf8').trim().split('\n\n').slice(1).map(s=>s.replace(/\*/g,''));checks.exactExcerpt=JSON.stringify(expected)===JSON.stringify(await page.locator('.chapter > p').allTextContents());
+ checks.noOldNames=!/\b(?:Maisie|Jonah|Mais|monster)\b/i.test(await page.locator('body').innerText());
+ const downloadPromise=page.waitForEvent('download');await page.locator('a[download]').click();const dl=await downloadPromise;const downloaded=await dl.path();checks.posterHash=sha(fs.readFileSync(downloaded));checks.posterMatches=checks.posterHash===sha(fs.readFileSync(path.join(site,'assets/rules-poster.pdf')));
+ checks.links=await page.locator('a').evaluateAll(as=>as.map(a=>({text:a.innerText,href:a.getAttribute('href').startsWith('data:')?'embedded PDF':a.getAttribute('href')})));
+ checks.errors=errors;checks.pass=checks.width===checks.scrollWidth&&checks.images.every(i=>i.loaded)&&checks.anchors.every(a=>a.valid)&&checks.fonts&&checks.initialHidden&&checks.revealed&&checks.leaveFocused&&checks.hiddenAfterLeave&&checks.ringFocused&&checks.spaceReveal&&checks.exactExcerpt&&checks.posterMatches&&checks.noOldNames&&errors.length===0&&checks.reducedAnimation==='none';
+ await page.evaluate(()=>window.scrollTo(0,0));await page.screenshot({path:path.join(out,`${kind}-${width}.png`),fullPage:true});if(width===1440)await page.screenshot({path:path.join(out,`${kind}-hero.png`)});results.push({kind,...checks});await page.close();
+ }
+}
+const p=await browser.newPage({reducedMotion:'no-preference'});await p.goto('file://'+path.join(site,'index.html'));await p.locator('#ring').click();const normalMotion=await p.locator('#hello-art').evaluate(e=>({name:getComputedStyle(e).animationName,duration:getComputedStyle(e).animationDuration}));await browser.close();const report={pass:results.every(r=>r.pass),normalMotion,results};fs.writeFileSync(path.join(out,'report.json'),JSON.stringify(report,null,2));console.log(JSON.stringify({pass:report.pass,normalMotion,cases:results.map(({kind,width,pass,exactExcerpt,posterMatches,scrollWidth})=>({kind,width,pass,exactExcerpt,posterMatches,scrollWidth}))},null,2));if(!report.pass)process.exitCode=1;
+})();

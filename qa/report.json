@@ -1,0 +1,741 @@
+{
+  "pass": true,
+  "normalMotion": {
+    "name": "hello",
+    "duration": "0.5s"
+  },
+  "results": [
+    {
+      "kind": "source",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "images": [
+        {
+          "alt": "Parker shines a flashlight under her bed, where green, eight-armed Octavitin raises a hand beneath his glowing orange hair.",
+          "loaded": true
+        },
+        {
+          "alt": "Parker looks beneath the bed with her flashlight. There is no creature in sight.",
+          "loaded": true
+        },
+        {
+          "alt": "Parker and Octavitin sit together under the bed and raise a hand to say hello.",
+          "loaded": true
+        },
+        {
+          "alt": "Parker sleeps peacefully with her feet out while Octavitin waves goodnight from under the bed.",
+          "loaded": true
+        }
+      ],
+      "anchors": [
+        {
+          "href": "#main",
+          "valid": true
+        },
+        {
+          "href": "#home",
+          "valid": true
+        },
+        {
+          "href": "#chapter-one",
+          "valid": true
+        },
+        {
+          "href": "#take-home",
+          "valid": true
+        },
+        {
+          "href": "#chapter-one",
+          "valid": true
+        },
+        {
+          "href": "#under",
+          "valid": true
+        },
+        {
+          "href": "#take-home",
+          "valid": true
+        },
+        {
+          "href": "#home",
+          "valid": true
+        },
+        {
+          "href": "#home",
+          "valid": true
+        }
+      ],
+      "motion": "auto",
+      "fonts": true,
+      "initialHidden": true,
+      "revealed": true,
+      "leaveFocused": true,
+      "reducedAnimation": "none",
+      "hiddenAfterLeave": true,
+      "ringFocused": true,
+      "spaceReveal": true,
+      "exactExcerpt": true,
+      "noOldNames": true,
+      "posterHash": "c8d55328e4627ae497fac28fde43b92086deb5fb561adbc73dca37a62c68e821",
+      "posterMatches": true,
+      "links": [
+        {
+          "text": "Skip to the story",
+          "href": "#main"
+        },
+        {
+          "text": "Octavitin.",
+          "href": "#home"
+        },
+        {
+          "text": "Read a little",
+          "href": "#chapter-one"
+        },
+        {
+          "text": "Take a little home",
+          "href": "#take-home"
+        },
+        {
+          "text": "Read Chapter One",
+          "href": "#chapter-one"
+        },
+        {
+          "text": "There’s a whole world under here\n↓",
+          "href": "#under"
+        },
+        {
+          "text": "Keep a little of the story",
+          "href": "#take-home"
+        },
+        {
+          "text": "Download Parker’s Rules",
+          "href": "assets/rules-poster.pdf"
+        },
+        {
+          "text": "Write to Patrick",
+          "href": "mailto:pat@patpadgett.com"
+        },
+        {
+          "text": "Octavitin.",
+          "href": "#home"
+        },
+        {
+          "text": "Back to the top ↑",
+          "href": "#home"
+        }
+      ],
+      "errors": [],
+      "pass": true
+    },
+    {
+      "kind": "source",
+      "width": 390,
+      "scrollWidth": 390,
+      "images": [
+        {
+          "alt": "Parker shines a flashlight under her bed, where green, eight-armed Octavitin raises a hand beneath his glowing orange hair.",
+          "loaded": true
+        },
+        {
+          "alt": "Parker looks beneath the bed with her flashlight. There is no creature in sight.",
+          "loaded": true
+        },
+        {
+          "alt": "Parker and Octavitin sit together under the bed and raise a hand to say hello.",
+          "loaded": true
+        },
+        {
+          "alt": "Parker sleeps peacefully with her feet out while Octavitin waves goodnight from under the bed.",
+          "loaded": true
+        }
+      ],
+      "anchors": [
+        {
+          "href": "#main",
+          "valid": true
+        },
+        {
+          "href": "#home",
+          "valid": true
+        },
+        {
+          "href": "#chapter-one",
+          "valid": true
+        },
+        {
+          "href": "#take-home",
+          "valid": true
+        },
+        {
+          "href": "#chapter-one",
+          "valid": true
+        },
+        {
+          "href": "#under",
+          "valid": true
+        },
+        {
+          "href": "#take-home",
+          "valid": true
+        },
+        {
+          "href": "#home",
+          "valid": true
+        },
+        {
+          "href": "#home",
+          "valid": true
+        }
+      ],
+      "motion": "auto",
+      "fonts": true,
+      "initialHidden": true,
+      "revealed": true,
+      "leaveFocused": true,
+      "reducedAnimation": "none",
+      "hiddenAfterLeave": true,
+      "ringFocused": true,
+      "spaceReveal": true,
+      "exactExcerpt": true,
+      "noOldNames": true,
+      "posterHash": "c8d55328e4627ae497fac28fde43b92086deb5fb561adbc73dca37a62c68e821",
+      "posterMatches": true,
+      "links": [
+        {
+          "text": "Skip to the story",
+          "href": "#main"
+        },
+        {
+          "text": "Octavitin.",
+          "href": "#home"
+        },
+        {
+          "text": "Read a little",
+          "href": "#chapter-one"
+        },
+        {
+          "text": "Take a little home",
+          "href": "#take-home"
+        },
+        {
+          "text": "Read Chapter One",
+          "href": "#chapter-one"
+        },
+        {
+          "text": "There’s a whole world under here\n↓",
+          "href": "#under"
+        },
+        {
+          "text": "Keep a little of the story",
+          "href": "#take-home"
+        },
+        {
+          "text": "Download Parker’s Rules",
+          "href": "assets/rules-poster.pdf"
+        },
+        {
+          "text": "Write to Patrick",
+          "href": "mailto:pat@patpadgett.com"
+        },
+        {
+          "text": "Octavitin.",
+          "href": "#home"
+        },
+        {
+          "text": "Back to the top ↑",
+          "href": "#home"
+        }
+      ],
+      "errors": [],
+      "pass": true
+    },
+    {
+      "kind": "source",
+      "width": 320,
+      "scrollWidth": 320,
+      "images": [
+        {
+          "alt": "Parker shines a flashlight under her bed, where green, eight-armed Octavitin raises a hand beneath his glowing orange hair.",
+          "loaded": true
+        },
+        {
+          "alt": "Parker looks beneath the bed with her flashlight. There is no creature in sight.",
+          "loaded": true
+        },
+        {
+          "alt": "Parker and Octavitin sit together under the bed and raise a hand to say hello.",
+          "loaded": true
+        },
+        {
+          "alt": "Parker sleeps peacefully with her feet out while Octavitin waves goodnight from under the bed.",
+          "loaded": true
+        }
+      ],
+      "anchors": [
+        {
+          "href": "#main",
+          "valid": true
+        },
+        {
+          "href": "#home",
+          "valid": true
+        },
+        {
+          "href": "#chapter-one",
+          "valid": true
+        },
+        {
+          "href": "#take-home",
+          "valid": true
+        },
+        {
+          "href": "#chapter-one",
+          "valid": true
+        },
+        {
+          "href": "#under",
+          "valid": true
+        },
+        {
+          "href": "#take-home",
+          "valid": true
+        },
+        {
+          "href": "#home",
+          "valid": true
+        },
+        {
+          "href": "#home",
+          "valid": true
+        }
+      ],
+      "motion": "auto",
+      "fonts": true,
+      "initialHidden": true,
+      "revealed": true,
+      "leaveFocused": true,
+      "reducedAnimation": "none",
+      "hiddenAfterLeave": true,
+      "ringFocused": true,
+      "spaceReveal": true,
+      "exactExcerpt": true,
+      "noOldNames": true,
+      "posterHash": "c8d55328e4627ae497fac28fde43b92086deb5fb561adbc73dca37a62c68e821",
+      "posterMatches": true,
+      "links": [
+        {
+          "text": "Skip to the story",
+          "href": "#main"
+        },
+        {
+          "text": "Octavitin.",
+          "href": "#home"
+        },
+        {
+          "text": "Read a little",
+          "href": "#chapter-one"
+        },
+        {
+          "text": "Take a little home",
+          "href": "#take-home"
+        },
+        {
+          "text": "Read Chapter One",
+          "href": "#chapter-one"
+        },
+        {
+          "text": "There’s a whole world under here\n↓",
+          "href": "#under"
+        },
+        {
+          "text": "Keep a little of the story",
+          "href": "#take-home"
+        },
+        {
+          "text": "Download Parker’s Rules",
+          "href": "assets/rules-poster.pdf"
+        },
+        {
+          "text": "Write to Patrick",
+          "href": "mailto:pat@patpadgett.com"
+        },
+        {
+          "text": "Octavitin.",
+          "href": "#home"
+        },
+        {
+          "text": "Back to the top ↑",
+          "href": "#home"
+        }
+      ],
+      "errors": [],
+      "pass": true
+    },
+    {
+      "kind": "standalone",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "images": [
+        {
+          "alt": "Parker shines a flashlight under her bed, where green, eight-armed Octavitin raises a hand beneath his glowing orange hair.",
+          "loaded": true
+        },
+        {
+          "alt": "Parker looks beneath the bed with her flashlight. There is no creature in sight.",
+          "loaded": true
+        },
+        {
+          "alt": "Parker and Octavitin sit together under the bed and raise a hand to say hello.",
+          "loaded": true
+        },
+        {
+          "alt": "Parker sleeps peacefully with her feet out while Octavitin waves goodnight from under the bed.",
+          "loaded": true
+        }
+      ],
+      "anchors": [
+        {
+          "href": "#main",
+          "valid": true
+        },
+        {
+          "href": "#home",
+          "valid": true
+        },
+        {
+          "href": "#chapter-one",
+          "valid": true
+        },
+        {
+          "href": "#take-home",
+          "valid": true
+        },
+        {
+          "href": "#chapter-one",
+          "valid": true
+        },
+        {
+          "href": "#under",
+          "valid": true
+        },
+        {
+          "href": "#take-home",
+          "valid": true
+        },
+        {
+          "href": "#home",
+          "valid": true
+        },
+        {
+          "href": "#home",
+          "valid": true
+        }
+      ],
+      "motion": "auto",
+      "fonts": true,
+      "initialHidden": true,
+      "revealed": true,
+      "leaveFocused": true,
+      "reducedAnimation": "none",
+      "hiddenAfterLeave": true,
+      "ringFocused": true,
+      "spaceReveal": true,
+      "exactExcerpt": true,
+      "noOldNames": true,
+      "posterHash": "c8d55328e4627ae497fac28fde43b92086deb5fb561adbc73dca37a62c68e821",
+      "posterMatches": true,
+      "links": [
+        {
+          "text": "Skip to the story",
+          "href": "#main"
+        },
+        {
+          "text": "Octavitin.",
+          "href": "#home"
+        },
+        {
+          "text": "Read a little",
+          "href": "#chapter-one"
+        },
+        {
+          "text": "Take a little home",
+          "href": "#take-home"
+        },
+        {
+          "text": "Read Chapter One",
+          "href": "#chapter-one"
+        },
+        {
+          "text": "There’s a whole world under here\n↓",
+          "href": "#under"
+        },
+        {
+          "text": "Keep a little of the story",
+          "href": "#take-home"
+        },
+        {
+          "text": "Download Parker’s Rules",
+          "href": "embedded PDF"
+        },
+        {
+          "text": "Write to Patrick",
+          "href": "mailto:pat@patpadgett.com"
+        },
+        {
+          "text": "Octavitin.",
+          "href": "#home"
+        },
+        {
+          "text": "Back to the top ↑",
+          "href": "#home"
+        }
+      ],
+      "errors": [],
+      "pass": true
+    },
+    {
+      "kind": "standalone",
+      "width": 390,
+      "scrollWidth": 390,
+      "images": [
+        {
+          "alt": "Parker shines a flashlight under her bed, where green, eight-armed Octavitin raises a hand beneath his glowing orange hair.",
+          "loaded": true
+        },
+        {
+          "alt": "Parker looks beneath the bed with her flashlight. There is no creature in sight.",
+          "loaded": true
+        },
+        {
+          "alt": "Parker and Octavitin sit together under the bed and raise a hand to say hello.",
+          "loaded": true
+        },
+        {
+          "alt": "Parker sleeps peacefully with her feet out while Octavitin waves goodnight from under the bed.",
+          "loaded": true
+        }
+      ],
+      "anchors": [
+        {
+          "href": "#main",
+          "valid": true
+        },
+        {
+          "href": "#home",
+          "valid": true
+        },
+        {
+          "href": "#chapter-one",
+          "valid": true
+        },
+        {
+          "href": "#take-home",
+          "valid": true
+        },
+        {
+          "href": "#chapter-one",
+          "valid": true
+        },
+        {
+          "href": "#under",
+          "valid": true
+        },
+        {
+          "href": "#take-home",
+          "valid": true
+        },
+        {
+          "href": "#home",
+          "valid": true
+        },
+        {
+          "href": "#home",
+          "valid": true
+        }
+      ],
+      "motion": "auto",
+      "fonts": true,
+      "initialHidden": true,
+      "revealed": true,
+      "leaveFocused": true,
+      "reducedAnimation": "none",
+      "hiddenAfterLeave": true,
+      "ringFocused": true,
+      "spaceReveal": true,
+      "exactExcerpt": true,
+      "noOldNames": true,
+      "posterHash": "c8d55328e4627ae497fac28fde43b92086deb5fb561adbc73dca37a62c68e821",
+      "posterMatches": true,
+      "links": [
+        {
+          "text": "Skip to the story",
+          "href": "#main"
+        },
+        {
+          "text": "Octavitin.",
+          "href": "#home"
+        },
+        {
+          "text": "Read a little",
+          "href": "#chapter-one"
+        },
+        {
+          "text": "Take a little home",
+          "href": "#take-home"
+        },
+        {
+          "text": "Read Chapter One",
+          "href": "#chapter-one"
+        },
+        {
+          "text": "There’s a whole world under here\n↓",
+          "href": "#under"
+        },
+        {
+          "text": "Keep a little of the story",
+          "href": "#take-home"
+        },
+        {
+          "text": "Download Parker’s Rules",
+          "href": "embedded PDF"
+        },
+        {
+          "text": "Write to Patrick",
+          "href": "mailto:pat@patpadgett.com"
+        },
+        {
+          "text": "Octavitin.",
+          "href": "#home"
+        },
+        {
+          "text": "Back to the top ↑",
+          "href": "#home"
+        }
+      ],
+      "errors": [],
+      "pass": true
+    },
+    {
+      "kind": "standalone",
+      "width": 320,
+      "scrollWidth": 320,
+      "images": [
+        {
+          "alt": "Parker shines a flashlight under her bed, where green, eight-armed Octavitin raises a hand beneath his glowing orange hair.",
+          "loaded": true
+        },
+        {
+          "alt": "Parker looks beneath the bed with her flashlight. There is no creature in sight.",
+          "loaded": true
+        },
+        {
+          "alt": "Parker and Octavitin sit together under the bed and raise a hand to say hello.",
+          "loaded": true
+        },
+        {
+          "alt": "Parker sleeps peacefully with her feet out while Octavitin waves goodnight from under the bed.",
+          "loaded": true
+        }
+      ],
+      "anchors": [
+        {
+          "href": "#main",
+          "valid": true
+        },
+        {
+          "href": "#home",
+          "valid": true
+        },
+        {
+          "href": "#chapter-one",
+          "valid": true
+        },
+        {
+          "href": "#take-home",
+          "valid": true
+        },
+        {
+          "href": "#chapter-one",
+          "valid": true
+        },
+        {
+          "href": "#under",
+          "valid": true
+        },
+        {
+          "href": "#take-home",
+          "valid": true
+        },
+        {
+          "href": "#home",
+          "valid": true
+        },
+        {
+          "href": "#home",
+          "valid": true
+        }
+      ],
+      "motion": "auto",
+      "fonts": true,
+      "initialHidden": true,
+      "revealed": true,
+      "leaveFocused": true,
+      "reducedAnimation": "none",
+      "hiddenAfterLeave": true,
+      "ringFocused": true,
+      "spaceReveal": true,
+      "exactExcerpt": true,
+      "noOldNames": true,
+      "posterHash": "c8d55328e4627ae497fac28fde43b92086deb5fb561adbc73dca37a62c68e821",
+      "posterMatches": true,
+      "links": [
+        {
+          "text": "Skip to the story",
+          "href": "#main"
+        },
+        {
+          "text": "Octavitin.",
+          "href": "#home"
+        },
+        {
+          "text": "Read a little",
+          "href": "#chapter-one"
+        },
+        {
+          "text": "Take a little home",
+          "href": "#take-home"
+        },
+        {
+          "text": "Read Chapter One",
+          "href": "#chapter-one"
+        },
+        {
+          "text": "There’s a whole world under here\n↓",
+          "href": "#under"
+        },
+        {
+          "text": "Keep a little of the story",
+          "href": "#take-home"
+        },
+        {
+          "text": "Download Parker’s Rules",
+          "href": "embedded PDF"
+        },
+        {
+          "text": "Write to Patrick",
+          "href": "mailto:pat@patpadgett.com"
+        },
+        {
+          "text": "Octavitin.",
+          "href": "#home"
+        },
+        {
+          "text": "Back to the top ↑",
+          "href": "#home"
+        }
+      ],
+      "errors": [],
+      "pass": true
+    }
+  ]
+}
