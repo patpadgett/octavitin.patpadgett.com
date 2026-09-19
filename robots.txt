@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://octavitin.patpadgett.com/sitemap.xml
